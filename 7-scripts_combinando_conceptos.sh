@@ -19,7 +19,7 @@ archivo="./nombres.txt"
 while IFS= read -r nombre
 do
     echo "Hola, $nombre"
-done < "$archivo"
+done < $archivo
 
 #ejercicio 7.3
 echo "Ingresa 5 números:"
