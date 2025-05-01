@@ -1,0 +1,1 @@
+Este es un archivo txt para copiar en otro directorio como lo solicitado en el ejercicio 1.3.
