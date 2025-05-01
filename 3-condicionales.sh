@@ -4,7 +4,7 @@
 
 read -p "Ingrese su edad:" edad
 
-if [[ $edad -gt 18 ]];then 
+if [[ $edad -ge 18 ]];then 
     echo "Usted es mayor de edad"
 else
     echo "Usted es menor de edad"
@@ -15,7 +15,7 @@ fi
 
 read -p "Ingrese el nombre del archivo (no olvide la extensión): " archivo
 
-if [ -e "$archivo" ]; then
+if [ -e $archivo ]; then
     echo "El archivo $archivo existe"
 else
     echo "El archivo no existe"
